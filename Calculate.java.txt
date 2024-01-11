@@ -3,3 +3,15 @@ Interface Calculate
 public int setSum(int a,int b);
 public int setSub(int a,int b);
 }
+
+public ClaculateImp implements Calculate
+{ 
+public int setSum(int a,int b)
+{
+return a+b;
+}
+public int setSub(int a,int b)
+{
+return a-b;
+}
+}
