@@ -1,0 +1,5 @@
+Interface Calculate
+{
+public int setSum(int a,int b);
+public int setSub(int a,int b);
+}
